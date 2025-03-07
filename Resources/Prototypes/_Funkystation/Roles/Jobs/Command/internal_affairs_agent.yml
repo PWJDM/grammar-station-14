@@ -5,7 +5,10 @@
   playTimeTracker: JobInternalAffairsAgent
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000  #10 hrs
+      time: 72000 #20 hrs
+    - !type:RoleTimeRequirement
+      role: JobLawyer
+      time: 18000 #5 hrs
   weight: 20
   startingGear: InternalAffairsAgentGear
   icon: "JobIconInternalAffairsAgent"
@@ -22,6 +25,7 @@
   - Engineering
   - Medical
   - Research
+  - Lawyer
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -34,6 +38,9 @@
     eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetCentCom
     pocket1: BookSpaceLaw
-    pocket2: Flash
+    pocket2: RubberStampIAA
   inhand:
   - BriefcaseBrownFilled
+  storage:
+    back:
+    - Flash

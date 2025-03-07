@@ -17111,7 +17111,7 @@ entities:
       pos: 1.5,161.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -21588.559
+      secondsUntilStateChange: -21709.57
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -17127,7 +17127,7 @@ entities:
       pos: -0.5,161.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -21586.523
+      secondsUntilStateChange: -21707.535
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -145934,6 +145934,13 @@ entities:
     components:
     - type: Transform
       pos: -19.146719,81.546844
+      parent: 2
+- proto: MaterialSilo
+  entities:
+  - uid: 10791
+    components:
+    - type: Transform
+      pos: -110.5,30.5
       parent: 2
 - proto: MedicalBed
   entities:
